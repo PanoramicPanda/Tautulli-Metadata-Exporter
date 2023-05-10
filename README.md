@@ -30,7 +30,7 @@ This Python script uses Tautulli's API to export metadata from a specified libra
 - `file_format`: The format of the export file. Can be 'csv', 'json', 'xml', or 'm3u'. Defaults to 'json'.
 - `metadata_level`: The level of metadata to export. If not provided, defaults to 0.
 - `media_info_level`: The level of media info to export. If not provided, defaults to 0.
-- `custom_fields`: Space separated list of custom fields to export in addition to the export level selected. If not provided, it will not be included in the export parameters.
+- `custom_fields`: Space separated list of custom fields to export in addition to the export level selected. If not provided, it will not be included in the export parameters. For a list of fields, see [https://github.com/Tautulli/Tautulli/wiki/Exporter-Guide#media-type-fields](Tautulli's Exporter Guide).
 
 Example usage:
 
