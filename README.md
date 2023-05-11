@@ -1,7 +1,5 @@
 # Tautulli Metadata Exporter
 
-## Description
-
 This Python script uses Tautulli's API to export metadata from a specified library to a file, waits for the export to complete, and then deletes the export from Tautulli.
 
 ## Requirements
